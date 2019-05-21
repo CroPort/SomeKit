@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 			SomeKit make spec test possiable.
                    DESC
 
-  s.homepage     = "http://github.com/SomeKit"
+  s.homepage     = "https://github.com/CroPort/SomeKit"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/SomeKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/CroPort/SomeKit.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
