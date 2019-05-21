@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		DA3A4B8022938EC100D76290 /* SomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3A4B7E22938EC100D76290 /* SomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3A4BAA22939F8A00D76290 /* SKAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3A4BA822939F8A00D76290 /* SKAction.h */; };
+		DA3A4BAB22939F8A00D76290 /* SKAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3A4BA922939F8A00D76290 /* SKAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA3A4B7B22938EC100D76290 /* SomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3A4B7E22938EC100D76290 /* SomeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeKit.h; sourceTree = "<group>"; };
 		DA3A4B7F22938EC100D76290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3A4BA822939F8A00D76290 /* SKAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAction.h; sourceTree = "<group>"; };
+		DA3A4BA922939F8A00D76290 /* SKAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				DA3A4B7E22938EC100D76290 /* SomeKit.h */,
+				DA3A4BA822939F8A00D76290 /* SKAction.h */,
+				DA3A4BA922939F8A00D76290 /* SKAction.m */,
 				DA3A4B7F22938EC100D76290 /* Info.plist */,
 			);
 			path = SomeKit;
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA3A4BAA22939F8A00D76290 /* SKAction.h in Headers */,
 				DA3A4B8022938EC100D76290 /* SomeKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA3A4BAB22939F8A00D76290 /* SKAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
